@@ -1,0 +1,17 @@
+{
+  "name": "cf-sample",
+  "version": "0.0.1",
+  "description": "A sample app for the CF Summit",
+  "main": "app.js",
+  "author": "nquinlan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.4.1",
+    "sendgrid": "^1.0.5",
+    "connect-multiparty": "^1.0.5",
+    "xeno-canto": "0.0.3"
+  },
+  "engines" : {
+    "node" : "0.10.x"
+  }
+}
