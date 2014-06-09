@@ -2,6 +2,8 @@
 
 A quick demo of using SendGrid with Cloud Foundry for the CF Summit.
 
+![SendGrid > AppDirect > CloudFoundry](http://sendgrid.com/blog/wp-content/uploads/2013/10/sendgrid-appdirect-cloudfoundry-0-500x172.png)
+
 ## Usage
 To get setup, take the following steps in your terminal.
 
