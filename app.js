@@ -28,12 +28,14 @@ app.all('/', function (req, res) {
 	bird(req.body.subject, function (b) {
 		// Send an email using SendGrid's Node.js library
 		// http://github.com/sendgrid/sendgrid-nodejs
-		sendgrid.send({
-			to: req.body.from,
-			from: "nick@sendgrid.com",
-			subject: "Thanks for watching how to use Cloud Foundry and SendGrid 👍",
-			html: b.info
-		}, function (err, json) {
+		var email = new sendgrid.Email({});
+
+		email.addTo(req.body.from);
+		email.setFrom("nick@sendgrid.com");
+		email.setSubject("Thanks for coming to my talk at CF Summit!");
+		email.setHtml(b.info);
+
+		sendgrid.send(email, function (err, json) {
 			res.send(json);
 		});
 	});
