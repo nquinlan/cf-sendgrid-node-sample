@@ -1,3 +1,3 @@
-cf push APP_NAME
-cf create-service sendgrid free SERVICE_NAME
-cf bind-service APP_NAME SERVICE_NAME
+cf push sendgrid-demo
+cf create-service sendgrid free sendgrid-is-cool
+cf bind-service sendgrid-demo sendgrid-is-cool
