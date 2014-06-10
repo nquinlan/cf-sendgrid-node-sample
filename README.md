@@ -37,3 +37,7 @@ Finally, you must connect the service to your application– this is called [bin
 ```
 $ cf bind-service <app_name> <service_name>
 ```
+
+## Integrating SendGrid
+
+To integrate SendGrid into your application, read the [SendGrid Integration Instructions](https://sendgrid.com/docs/Integrate/index.html) found in the [SendGrid Docs](https://sendgrid.com/docs/).
