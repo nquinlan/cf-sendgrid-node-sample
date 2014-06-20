@@ -1,6 +1,6 @@
 # CF Summit - Bird Call Demo
 
-A quick demo of using SendGrid with Cloud Foundry for the CF Summit.
+A quick demo of using SendGrid with Cloud Foundry for the CF Summit. [Accompanying Presentation »](https://github.com/nquinlan/cf-sendgrid-node-sample/raw/presentation/cloud-foundry-summit-presentation.pdf)
 
 ![SendGrid > AppDirect > CloudFoundry](http://sendgrid.com/blog/wp-content/uploads/2013/10/sendgrid-appdirect-cloudfoundry-0-500x172.png)
 
